@@ -141,3 +141,11 @@ target_link_libraries(mono_inertial_gopro_localize ${PROJECT_NAME})
 add_executable(gopro_slam
 Examples/Monocular-Inertial/gopro_slam.cc)
 target_link_libraries(gopro_slam ${PROJECT_NAME})
+
+add_executable(d435i_slam
+Examples/Monocular-Inertial/d435i_slam.cc)
+target_link_libraries(d435i_slam ${PROJECT_NAME})
+
+add_executable(test_load_imu
+Examples/Monocular-Inertial/test_load_imu.cc)
+target_link_libraries(test_load_imu ${PROJECT_NAME})
